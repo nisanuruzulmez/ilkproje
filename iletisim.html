@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Bloğumm</h1>
+        <nav>
+            <ul>
+                <li><a href="anasayfa.html">Ana Sayfa</a></li>
+                <li><a href="projelerim.html">Projelerim</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <li><a href="anket.html">Anket</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <main>
+            <h2>İletişim</h2>
+            <div class="contact-info">
+                <p>İsim: Nisanur</p>
+                <p>Soyad: Üzülmez</p>
+                <p>E-posta: nisanuruzulmez734@gmail.com</p>
+                <p>LinkedIn hesabı: <a href="https://www.linkedin.com/in/nisanur-üzülmez-2b7267398" target="_blank">Nisanur Üzülmez</a> </p>
+
+            </div>
+            <form class="contact-form" action="https://formspree.io/f/xnjbqkpa" method="POST">
+                <label for="name">Ad:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="surname">Soyad:</label>
+                <input type="text" id="surname" name="surname" required>
+
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Gönder</button>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p>Telif Hakkı © 2024 </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genel Kültür Anketi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Bloğumm</h1>
+        <nav>
+            <ul>
+                <li><a href="anasayfa.html">Ana Sayfa</a></li>
+                <li><a href="projelerim.html">Projelerim</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <li><a href="anket.html">Anket</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <main>
+            <h2>Yazılımcı Tercihleri Anketi</h2>
+            <p>Biilgisayar Mühendisliği dünyasındaki trendler için anketi doldurabilirsin.</p>
+            <form class="survey-form" action="https://formspree.io/f/xnjbqkpa" method="POST">
+                <div class="section left-section">
+                    <label for="question1">1. En sevdiğiniz programlama dili hangisidir?</label>
+                    <div class="option">
+                        <input type="radio" id="q1-a" name="question1" value="Python">
+                        <label for="q1-a">Python</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1-b" name="question1" value="C++">
+                        <label for="q1-b">C++</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1-c" name="question1" value="Java">
+                        <label for="q1-c">Java</label>
+                    </div>
+
+                    <label for="question2">2. Hangi alanlarla ilgileniyorsunuz?(Birden fazla seçebilirsiniz)</label>
+                    <div class="option">
+                        <input type="checkbox" id="q2-a" name="question2" value="Yapay Zeka">
+                        <label for="q2-a">Yapay Zeka</label>
+                    </div>
+                    <div class="option">
+                        <input type="checkbox" id="q2-b" name="question2" value="Web Geliştirme">
+                        <label for="q2-b">Web Geliştirme</label>
+                    </div>
+                    <div class="option">
+                        <input type="checkbox" id="q2-c" name="question2" value="Siber Güvenlik">
+                        <label for="q2-c">Siber Güvenlik</label>
+                    </div>
+
+                    <label for="question3">3. Favori işletim sisteminiz nedir?</label>
+                    <div class="option">
+                        <input type="radio" id="q3-a" name="question3" value="Windows">
+                        <label for="q3-a">Windows</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3-b" name="question3" value="MacOS">
+                        <label for="q3-b">MacOS</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3-c" name="question3" value="Linux">
+                        <label for="q3-c">Linux</label>
+                    </div>
+
+                </div>
+
+                <div class="section right-section">
+                    <label for="question4">4. En sık kullandığınız AI asistanı hangisidir?</label>
+                    <div class="option">
+                        <input type="radio" id="q4-a" name="question4" value="Gemini">
+                        <label for="q4-a">Gemini</label>
+                    </div>
+                      <div class="option">
+                        <input type="radio" id="q4-b" name="question4" value="ChatGPT">
+                        <label for="q4-b">ChatGPT</label>
+                    </div>
+                      <div class="option">
+                        <input type="radio" id="q4-c" name="question4" value="Claude">
+                        <label for="q4-c">Claude</label>
+                    </div>
+
+                        <label for="question5">5. En verimli çalışabileceğiniz ortam hangisidir?</label>
+                    <div class="option">
+                        <input type="radio" id="q5-a" name="question5" value="Ev">
+                        <label for="q5-a">Ev (Remote)</label>
+                    </div>
+                      <div class="option">
+                        <input type="radio" id="q5-b" name="question5" value="Ofis">
+                        <label for="q5-b">Ofis (Yüz yüze)</label>
+                    </div>
+                      <div class="option">
+                        <input type="radio" id="q5-c" name="question5" value="Kafe">
+                        <label for="q5-c">Kafe/ Kütüphane</label>
+                    </div>
+
+                            <label for="question6">6. Mezuniyetten sonra hangi tür şirkette çalışmayı düşünüyorsunuz?</label>
+                    <div class="option">
+                        <input type="radio" id="q6-a" name="question6" value="Startup">
+                        <label for="q6-a">Startup (Girişim)</label>
+                    </div>
+                      <div class="option">
+                        <input type="radio" id="q6-b" name="question6" value="Kurumsal">
+                        <label for="q6-b">Kurumsal Şirket</label>
+                    </div>
+                      <div class="option">
+                        <input type="radio" id="q6-c" name="question6" value="Freelance">
+                        <label for="q6-c">Freelance (Bağımsız) </label>
+                    </div>
+                  
+                 </div>
+                 <div class="submit-section">
+                    <button type="submit">Anketi Gönder</button>
+                 </div>
+                    
+            </form>
+         </main>
+     </div>
+             <footer>
+                <p>Telif Hakkı © 2024 </p>
+            </footer>
+        </body>
+        </html>
